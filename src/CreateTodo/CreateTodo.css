@@ -119,13 +119,18 @@
 }
 
 @media screen and (max-width:400px) {
-    .create_todo {
+    /* .create_todo {
         width: 80%;
         top: 40%;
-    }
+    } */
 
     .create_todo button {
         width: 70%;
         margin-bottom: 30px;
+    }
+
+    #modal {
+        width: 100%;
+        aspect-ratio: initial;
     }
 }

@@ -1,75 +1,52 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# TODO App
 
-¡Hola, Platzinauta!
+¡Bienvenido a TaskHub App! Este es un proyecto personal realizado con **ReactJS** para gestionar tareas de manera eficiente.
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+## Descripción
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+TaskHub App es una aplicación sencilla que permite a los usuarios agregar, eliminar y marcar tareas como completadas. La interfaz es intuitiva y fácil de usar, diseñada para mejorar la productividad.
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+## Características
 
-## Getting Started with Create React App
+- Agregar nuevas tareas.
+- Eliminar tareas.
+- Marcar tareas como completadas.
+- Filtrar las tareas por nombre.
+- Persistencia de datos en el almacenamiento local del navegador.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo
 
-## Available Scripts
+Puedes ver la aplicación [aquí](https://eric-agrez.com/TaskHub).
 
-In the project directory, you can run:
+## Uso
 
-### `npm start`
+1. **Agregar una tarea**: Escribe una tarea en el campo de entrada y presiona "Enter" o haz clic en el botón "Agregar".
+2. **Marcar una tarea como completada**: Haz clic en el checkbox junto a la tarea.
+3. **Eliminar una tarea**: Haz clic en el icono de la papelera al lado de la tarea.
+4. **Filtrar tareas**: Usa el campo de búsqueda para filtrar tareas por nombre.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologías Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) **ReactJS**: Biblioteca principal para construir la interfaz de usuario.
+- ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) **JavaScript**: Lenguaje de programación.
+- ![CSS](https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white) **CSS**: Estilos para la interfaz de usuario.
+- ![Local Storage](https://img.shields.io/badge/Local_Storage-FFCA28?style=for-the-badge&logo=google-chrome&logoColor=white) **Local Storage**: Para la persistencia de datos en el navegador.
 
-### `npm run build`
+## Contribución
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+¡Las contribuciones son bienvenidas! Si deseas contribuir, sigue estos pasos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Haz un fork de este repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. Realiza tus cambios y haz un commit (`git commit -m 'Agrega nueva característica'`).
+4. Sube tus cambios a tu repositorio (`git push origin feature/nueva-caracteristica`).
+5. Abre un Pull Request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Contacto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Si tienes alguna pregunta o sugerencia, no dudes en contactar conmigo a través de [ericaguirrez@hotmail.com](mailto:ericaguirrez@hotmail.com).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por visitar mi proyecto!
