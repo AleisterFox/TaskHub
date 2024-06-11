@@ -1,4 +1,4 @@
-# TODO App
+# TaskHub App
 
 ¡Bienvenido a TaskHub App! Este es un proyecto personal realizado con **ReactJS** para gestionar tareas de manera eficiente.
 
