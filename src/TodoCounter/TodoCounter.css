@@ -19,7 +19,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .counter {
         border: none;
         height: 10vh;

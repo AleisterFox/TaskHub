@@ -42,7 +42,7 @@ input:focus {
     right: 10%;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     .search_container {
         border: none;
         height: 10vh;
